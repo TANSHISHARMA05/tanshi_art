@@ -1,0 +1,33 @@
+.header {
+  background-color: rgb(218, 194, 144);
+  display: flex;
+  justify-content: space-between;
+  /* text-align: center; */
+  align-items: center;
+}
+
+a {
+  /* margin-left: 10px;
+    margin-right: 20px; */
+  font-size: xx-large;
+}
+.mehandi-cards {
+  display: flex;
+  margin: 20px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.card {
+    width: 33%;
+  text-align: center;
+}
+
+.card-img img {
+  object-fit: contain;
+  height: 400px;
+}
+
+.card-text {
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
